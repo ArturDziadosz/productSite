@@ -1,26 +1,69 @@
-.title {
-    color: $colorTextMain;
-    font-family: $fontText;
-    font-size: $fontSizeTitle;
-    line-height: $fontHeightTitle;
-    margin: 40px 0 20px 0;
-    padding: 6px 0;
+header {
+    background-color: $bgColor;
+    height: 796px;
+    
+    .container {
+
+        .row {
+            flex-direction: row;
+
+            .headerText {
+               width: 585px;
+                height: 337px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin: 230px 0;
+
+                .headerText__title {
+                    color: $colorTextAlt;
+                    font-family: Gotham-Book;
+                    font-size: $fontSizeTitle;
+                    line-height: 56px;
+                }
+
+                .headerText__subtitle {
+                    font-size: 40px;
+                    line-height: 56px;
+                    margin-bottom: 40px;
+                }
+
+                .headerText__text {
+                    color: $colorTextAlt;
+                    font-family: Gotham-Book;
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
 }
 
-.subtitle {
-    color: $colorTextMain;
-    font-family: $fontText;
-    font-size: $fontSize;
-    line-height: $lineHeight;
-}
+main {
+    .title {
+        color: $colorTextMain;
+        font-family: $fontText;
+        font-size: $fontSizeTitle;
+        line-height: $fontHeightTitle;
+        margin: 40px 0 20px 0;
+        padding: 6px 0;
+    }
 
-ol {
-    list-style-type: decimal;
-    padding-left: 20px;
-    margin-bottom: 125px;
-}
+    .subtitle {
+        color: $colorTextMain;
+        font-family: $fontText;
+        font-size: $fontSize;
+        line-height: $lineHeight;
+    }
 
-.img {
-  background-position: center;
-  background-size: cover;
+    ol {
+        list-style-type: decimal;
+        padding-left: 20px;
+        margin-bottom: 125px;
+    }
+
+    .img {
+        background-position: center;
+        background-size: cover;
+    }
 }
