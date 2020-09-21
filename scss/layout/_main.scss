@@ -1,0 +1,19 @@
+div {
+    height: 100px;
+    background-color: red;
+}
+
+.title {
+    color: $colorTextMain;
+    font-family: $fontText;
+    font-size: $fontSizeTitle;
+    line-height: $fontHeightTitle;
+    padding: 40px 0 20px 0;
+}
+
+.subtitle {
+    color: $colorTextMain;
+    font-family: $fontText;
+    font-size: $fontSize;
+    line-height: $lineHeight;
+}
