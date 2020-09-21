@@ -1,14 +1,10 @@
-div {
-    height: 100px;
-    background-color: red;
-}
-
 .title {
     color: $colorTextMain;
     font-family: $fontText;
     font-size: $fontSizeTitle;
     line-height: $fontHeightTitle;
-    padding: 40px 0 20px 0;
+    margin: 40px 0 20px 0;
+    padding: 6px 0;
 }
 
 .subtitle {
@@ -16,4 +12,15 @@ div {
     font-family: $fontText;
     font-size: $fontSize;
     line-height: $lineHeight;
+}
+
+ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin-bottom: 125px;
+}
+
+.img {
+  background-position: center;
+  background-size: cover;
 }

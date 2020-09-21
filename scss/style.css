@@ -2,3 +2,40 @@
     font-family: 'Gotham-Book'; 
     src: url(../assets/font/Gotham\ Book/GothamBook.otf); 
 }
+
+.bitmap {
+    background-image: url('../assets/Bitmap/png/Bitmap.png');
+    height: 784px;
+    margin: 66px 0 50px;
+}
+
+.bitmap1 {
+    background-image: url('../assets/Bitmap_1/png/Bitmap.png');
+    height: 614px;
+    width: 1116px;
+    margin: 100px auto 15px;
+}
+
+.bitmap2 {
+    background-image: url('../assets/Bitmap_2/png/Bitmap.png');
+    height: 736px;
+    margin: 65px 0 43px;
+}
+
+.bitmap3 {
+    background-image: url('../assets/Bitmap_3/png/Bitmap.png');
+    height: 745px;
+    margin: 66px 0 50px
+}
+
+.bitmap4 {
+    background-image: url('../assets/Bitmap_4/png/Bitmap.png');
+    height: 610px;
+    margin-top: 17px;
+}
+
+.bitmap5 {
+    background-image: url('../assets/Bitmap_5/png/Bitmap.png');
+    height: 480px;
+    margin: 49px 0 9px;
+}
