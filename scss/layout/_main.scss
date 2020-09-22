@@ -49,11 +49,41 @@ main {
         padding: 6px 0;
     }
 
-    .subtitle {
+    .subtitle, table {
         color: $colorTextMain;
         font-family: $fontText;
         font-size: $fontSize;
         line-height: $lineHeight;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+    tr {
+        td {
+            vertical-align: top;
+            padding: 15px 0;
+            border-bottom: 1px solid rgba($color: $colorTR, $alpha: .3);
+
+            &:first-child {
+                width: 25%;
+            }
+
+            .note {
+                font-size: 0.7em;
+            }
+
+            .note--special {
+                text-align: right;
+            }
+        }
+
+        &:last-of-type {
+            td {
+                padding-bottom: 0;
+                border: none;
+            }
+        }
     }
 
     ol {
